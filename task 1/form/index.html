@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body >
+    <form>
+      <fieldset style="background-color: red">
+        <legend style="background-color: aqua">Personal Data</legend>
+        <fieldset style="background-color: yellow">
+          <legend style="background-color: aqua; width: 100px; height: 100px">
+            Your Name
+          </legend>
+          <br /><br /><br />
+          <table>
+            <tr>
+              <td>
+                <label for="fname"> First Name </label>
+              </td>
+              <td>:</td>
+              <td>
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  placeholder="ex:ahmed"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="sec_name"> Second Name </label>
+              </td>
+              <td>:</td>
+              <td>
+                <input
+                  type="text"
+                  id="sec_name"
+                  name="sec_name"
+                  placeholder="ex:bahancy"
+                />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <br /><br /><br />
+        <table>
+          <tr>
+            <td>
+              <label for="phone"> Your phone </label>
+            </td>
+            <td>:</td>
+            <td>
+              <input type="text" id="phone" name="phone" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email"> email </label>
+            </td>
+            <td>:</td>
+            <td>
+              <input type="email" id="email" name="email" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password"> password </label>
+            </td>
+            <td>:</td>
+            <td>
+              <input type="password" id="password" name="password" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="repassword"> repassword</label>
+            </td>
+            <td>:</td>
+            <td>
+              <input type="password" id="repassword" name="repassword" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        
+        <table>
+          <tr>
+            <td>
+              <label for="gender">male</label>
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="gender"
+                id="gender"
+                value="male"
+              /><br />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gender">female</label>
+            </td>
+            <td>
+              <input type="radio" name="gender" value="female" id="gender" />
+            </td>
+          </tr>
+        </table>
+        <br><br>
+        <table>
+
+          
+          <tr>
+            <td>
+              <label for="status">student</label>
+            </td>
+            <td>
+              <input
+                type="checkbox"
+                name="status"
+                id="status"
+                value="student"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="status">Gradueted</label>
+            </td>
+            <td>
+              <input
+                type="checkbox"
+                name="status"
+                id="status"
+                value="graduated"
+              />
+            </td>
+          </tr>
+        </table>
+
+        <br />
+        <br />
+
+
+          <label for="country">Country:</label>
+          <select id="country" name="country">
+            <optgroup label="non Arab"></optgroup>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="germany">Germany</option>
+            <optgroup label="Arab"></optgroup>
+            <option value="saudi">Saudi Arabia</option>
+            <option value="jordan">Jordan</option>
+            <option value="egypt">Egypt</option></select
+          ><br />
+
+          <button type="submit">
+            <img
+              src="images/25432-3-submit-button-file.png"
+              alt="submit button"
+              width="100px"
+            />
+          </button>
+      </fieldset>
+    </form>
+  </body>
+</html>
